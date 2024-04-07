@@ -85,7 +85,7 @@
               <i class="fas fa-user"></i>
               <input type="text" name = "name" placeholder="барааны нэр"  minlength="3" required/>
             </div>
-            <input type="submit" value="Нэмэх" class="btn solid" />
+            <input type="submit" value="Хасах" class="btn solid" />
             
           </form>
   </body>
