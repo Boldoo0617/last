@@ -233,7 +233,7 @@ session_start();
         <!-- Add Goods Button Section -->
         <div class="profile-header">
             <a href="add_goods.php" class="button-log">ЗАР НЭМЭХ</a>
-            <!-- <a href="add_goods.php" class="button-log">ЗАР ХАСАХ</a> -->
+            <a href="delete_goods.php" class="button-log">ЗАР ХАСАХ</a>
     
         </div>
 
