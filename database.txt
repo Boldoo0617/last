@@ -1,0 +1,29 @@
+create database biydaalt;
+
+use biydaalt;
+
+create table users(
+username varchar(45),
+firstname varchar(45),
+lastname varchar(45),
+phone varchar(45),
+password varchar(100));
+
+
+
+"SELECT * FROM users WHERE username='$username'"
+"SELECT * FROM users WHERE phone='$phone'"
+"INSERT INTO users VALUES ('$username', '$firstname', '$lastname', '$phone', '$hashed_password')"
+
+create table product(
+username varchar(45),
+name varchar(45),
+price int,
+image varchar(100),
+about text(200));
+
+
+
+
+
+

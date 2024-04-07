@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Web Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Bags</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#">Дэлгүүр</a></li>
+            <li><a href="#">Тухай</a></li>
+            <li><a href="#">Мэлээлэл</a></li>
+            <li><a href="#">Дэлгэрэнгүй</a></li>
+        </ul>
+        <div class="icons">
+            <div class="wallet-box">
+            <form action="search.php">
+                <input type="text" id="search" name="search" class="searchbar">
+                <button type="submit"><h4>Хайх</h4></button>
+            </form>
+            <a href="user.php"><i class='bx bxs-user-circle' ></i></a>
+            <a href="#"><i class='bx bx-shopping-bag'></i></a>
+        </div>
+    </header>
+    <section class="shop" >
+        <div id="search-results" class="product-grid"></div>
+        <div class="container" id="product-container">
+            <div class="box">
+                <img src=".img/aa.jpg" alt="negymbsimaa">
+                <h4>I'm a product</h4>
+                <h5>$15.00</h5>
+                <span>Hi i am description</span>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="main-contact">
+            <div class="contact-content">
+                <li><a href="#">Бидний тухай</a></li>
+                <li><a href="#">Холбоо барих</a></li>
+            </div>
+            <div class="contact-content">
+                <li><a href="#">Буцаалт</a></li>
+                <li><a href="#">Чанарын баталгаа</a></li>
+            </div>
+            <div class="contact-content">
+                <li><a href="#">Санал хүсэлт</a></li>
+                <li><a href="#">Гомдол</a></li>
+            </div>
+            <div class="contact-content">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="last">
+        <p>©Энэхүү бүтээл нь оюуны өмчийн бүртгэлтэй болно.</p>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
